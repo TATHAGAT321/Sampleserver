@@ -27,7 +27,7 @@ database = {
 	]
 }
 
-
+app.get('/',(req,res)=>{res.send("Sampleserver is Working")})
   
 app.post('/signin',(req,res)=>{
 
